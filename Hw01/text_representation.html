@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Representation</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1> Text Representation </h1>
+
+        <nav>
+            
+                <a class="nav-button" href="index.html">Overview</a>
+                <a class="nav-button" href="number_systems.html">Number Systems</a>
+                <a id="current-page" href="text_representation.html">Text Representation</a>
+                <a class="nav-button" href="image_representation.html">Image Representation</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>ASCII and Unicode</h2>
+            <p> Text is represented using numerical codes. Early systems used <strong>ASCII</strong>, where each character is stored as a 7-bit binary number, allowing for 128 unique characters. This includes standard English letters, digits, and some special characters.
+                However, ASCII is limited in scope and cannot represent characters from other languages or special symbols. To address this limitation, <strong>Unicode</strong> was developed.
+                Unicode uses a variable-length encoding system, such as UTF-8 <strong>(We add &lt;meta charset="UTF-8"&gt; in html for the same reasosn)</strong>, which can use one to four bytes per character. This allows for over a million unique characters, accommodating
+                virtually all written languages and a wide range of symbols. Unicode has become the standard for text representation in modern computing due to its versatility and comprehensiveness.
+        </section>
+        <img src="img/ASCIIvsUnicode.jpg" alt="ASCII vs Unicode">
+    </main>
+
+    <footer>
+        <p>Sources: <a href="https://www.scaler.com/topics/cpp/difference-between-unicode-and-ascii/">Differences between ASCII and Unicode</a>, 
+        <a href="https://medium.com/@vanvlymenpaws/ascii-vs-unicode-4174def5c09d">ASCII vs Unicode</a>
+        </p>
+    </footer>   
+
+</body>
+</html>
