@@ -1,0 +1,72 @@
+body {
+    background-image: url("../img/numbers.jpg");
+    background-size: 70% auto;
+    background-position: center center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    min-height: 100vh;
+    margin: 10px;
+}
+
+#backgroundCard {
+    background-color: #e8f0fe;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    max-width: 700px;
+    width: 90%;
+}
+
+#main {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#scoreboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#winsBox, #lossesBox {
+  background-color: #f5e9ff;
+  border: 2px solid #c4a6ff;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #5a3d85;
+  min-width: 100px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.box {
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px groove;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #555;
+}
+

@@ -6,31 +6,36 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-
-        <header>
-            <h1>Guess the Number!</h1>
-            <h2>Guess a number between 1 and 99 in seven attempts!</h2>
-        </header>
-        <br>
-        <div id="main">
-            <div> Total Wins: 
-                <span id="wins"></span>
-            </div>
-            <div> Total Losses: 
-                <span id="losses"></span>
-            </div>
+        <div id="backgroundCard">
+            <header>
+                <h1>Guess the Number!</h1>
+                <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+            </header>
             <br>
-
-            Enter a guess: 
-            <input type="text" id="playerGuess" size="5">         
-            <button id="guessBtn"> Guess </button> <br>
-            <button id="resetBtn"> Reset </button>
-            <div id="feedback"></div>
-            <div> Previous Guesses:
-                <span id="guesses"></span>
-            </div> 
-            <div> Attempts left: 
-                <span id="attemptsLeft"></span>
+            <div id="main">
+                <section id="scoreboard">
+                    <div id="winsBox"> Total Wins: 
+                        <span id="wins"></span>
+                    </div>
+                    <div id="lossesBox"> Total Losses: 
+                        <span id="losses"></span>
+                    </div>
+                </section>
+                <br>
+                <section id="gameStuff">
+                    Enter a guess: 
+                    <input type="text" id="playerGuess" size="5">         
+                    <button id="guessBtn"> Guess </button> <br>
+                    <button id="resetBtn"> Reset </button>
+                    <br>
+                    <div id="feedback"></div>
+                    <div class="box"> Previous Guesses:
+                        <span id="guesses"></span>
+                    </div> 
+                    <div class="box"> Attempts left: 
+                        <span id="attemptsLeft"></span>
+                    </div>
+                </section>
             </div>
         </div>
         
