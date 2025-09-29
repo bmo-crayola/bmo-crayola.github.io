@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: Quiz</title>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1> Computers Quiz </h1>
+
+    <div> 1. Which one of these is the most common OS for personal computers? </div> <br>
+
+    <div id="q1Options">
+        <!-- <label>
+            <input type="radio" name="q1"> Linux
+        </label>
+
+        <label>
+            <input type="radio" name="q1"> IOS
+        </label>
+
+        <label>
+            <input type="radio" name="q1"> Windows
+        </label> -->
+    </div>
+
+    <div id="feedback1"></div>
+    <img id="icon1" src="img/blank.png" width=5%>
+    <br>
+
+    <div> 2. How many cores does the newest intel i7 have? </div>
+    <br>
+    <label>
+        <input id="textSize" type="number" min="10" max="18" step="2">
+    </label>
+
+    <div id="feedback2"></div>
+    <img id="icon2" src="img/blank.png" width=5%>
+    <br>
+
+    <div> 3. Which one is a valid OS  </div>
+    <br>
+    <label>
+    <select id="q3">
+        <option> pRofessionalism </option>
+        <option> templeOS </option>
+        <option> totallyRealOS </option>
+
+    </select>
+    
+    <div id="feedback3"></div>
+    <img id="icon3" src="img/blank.png" width=5%>
+    </label>
+
+    <br>
+
+    <div> 4. What is the most recent nvidia graphics card? </div> <br>
+    <input type="text" id="q4">
+    <br>
+    <div id="feedback4"></div>
+    <img id="icon4" src="img/blank.png" width=5%>
+    <br>
+
+     <div> 5. Name each object that needs a motherboard </div> <br>
+
+   <label>
+        <input type="checkbox" id="q5a"> Projector
+    </label>
+
+    <label>
+        <input type="checkbox" id="q5b"> Electric-Vacuum
+    </label>
+
+    <label>
+        <input type="checkbox" id="q5c"> Fork
+    </label>
+    <div id="feedback5"></div>
+    <img id="icon5" src="img/blank.png" width=5%>
+    <h1></h1>
+    
+    <br>
+    Your score is: <span id="scoreDisplay"> ... </span> / 100
+    <div id="congrats"></div>
+    <br>
+
+    <p>Number of times the quiz has been taken: <span id="attempts"></span></p>
+
+    <h1></h1>
+
+    <button> Submit Quiz </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

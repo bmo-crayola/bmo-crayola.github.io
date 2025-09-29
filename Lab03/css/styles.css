@@ -1,0 +1,71 @@
+body {
+    background: #f6f8fa;
+    margin: 0;
+    padding: 40px;
+    color: #222;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    color: darkBlue;
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid darkBlue;
+    padding-bottom: 10px;
+}
+
+select {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button {
+    background-color: darkBlue;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #163260;
+    transform: translateY(-2px);
+}
+
+#feedback1, #feedback2, #feedback3, #feedback4, #feedback5 {
+    margin-top: 6px;
+    color: #c0392b;
+    font-size: 0.95rem;
+}
+
+#scoreDisplay {
+    color: #27ae60;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#congrats {
+    margin-top: 12px;
+    color: #d35400;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #ddd;
+    margin: 25px 0;
+}
+
