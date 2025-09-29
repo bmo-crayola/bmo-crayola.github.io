@@ -9,19 +9,22 @@
 </head>
 <body>
     <div id="gameCard">
-        <h2 id="wordToGuess">...</h2>
-        <p>Type the Morse code for the word above using <strong>-</strong> and <strong>*</strong></p>
-        <input type="text" id="morseInput" placeholder="Enter Morse code here (NO SPACES!)">
+        <h2 id="wordToGuess">Choose your Game Mode</h2>
+        <button id="EngToMorse">English to Morse</button>
+        <button id="MorseToEng">Morse to English</button>
+
+        <p id="prompt"></p>
+        <input type="text" id="morseInput" hidden>
 
         <br><br>
 
-        <button id="checkBtn">Check</button>
-        <button id="giveUpBtn">Give Up</button>
+        <button id="checkBtn" hidden>Check</button>
+        <button id="giveUpBtn" hidden>Give Up</button> 
 
         <br><br>
 
         <div id="resultStuff">
-            <img id="resultImg" src="img/blank.png" width=5%>
+            <img id="resultImg" src="img/ABC.png" width=35%>
             <div id="result"></div>
         </div>
     </div>
