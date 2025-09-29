@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code Guessing Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div id="gameCard">
+        <h2 id="wordToGuess">...</h2>
+        <p>Type the Morse code for the word above using <strong>-</strong> and <strong>*</strong></p>
+        <input type="text" id="morseInput" placeholder="Enter Morse code here (NO SPACES!)">
+
+        <br><br>
+
+        <button id="checkBtn">Check</button>
+        <button id="giveUpBtn">Give Up</button>
+
+        <br><br>
+
+        <div id="resultStuff">
+            <img id="resultImg" src="img/blank.png" width=5%>
+            <div id="result"></div>
+        </div>
+    </div>
+</body>
+</html>
