@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background-color: #f3f4f6;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  font-size: 1.6rem;
+  color: #111827;
+}
+
+#signupForm {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+legend {
+  font-weight: 600;
+  color: #374151;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #f9fafb;
+  color: #111827;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition: border 160ms ease, background-color 160ms ease;
+  caret-color: #4f46e5;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border: 1px solid #4f46e5;
+  background-color: #ffffff;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #4f46e5;
+}
+
+input[type="submit"] {
+  padding: 10px 14px;
+  border: 1px solid #4f46e5;
+  border-radius: 8px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 120ms ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #4338ca;
+}
